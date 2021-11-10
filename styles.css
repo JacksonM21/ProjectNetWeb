@@ -9,13 +9,22 @@
 
 .container {
     width: 800px;
-    margin: 0 auto;   
+    margin: 0 auto;
 }
 
 .main-header {
     background-color: #eb6969;
+    
+}
+
+.header-text {
     padding: 20px 40px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
+}
+
+#banner {
+    width: 100%;
+    height: 300px;
 }
 
 nav {
@@ -25,17 +34,19 @@ nav {
     padding: 20px 0;
 }
 
+/* Nav border boxes on hover buggy, fix in future update */
 nav a {
-    padding: 20px;
+    padding: 10px 15px;
     text-decoration: none;
     color: #fff;
     font-size: 18px;
 }
 
-/* Figure out the border box around the link then replace this, next 4 l. below */
 nav a:hover {
     color: #000;
-    text-decoration: underline;
+    border: 2px black solid;
+    padding: 10px 10px;
+    /* text-decoration: underline; */
 }
 
 nav a:visited {
@@ -45,11 +56,10 @@ nav a:visited {
 }
 
 .title {
-    /* Change this font 1 l. below once importing new fonts later */
+    /* Change this font 1 l. below once importing new fonts later (building out rest of site first */
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 35px;
-    margin-bottom: 50px;
 }
 
 .tagline {
@@ -58,4 +68,20 @@ nav a:visited {
     color:#fff;
     font-style: italic;
 
+}
+
+#summary {
+    font-size: 25px;
+    margin: auto;
+    width: 75%;
+    display: block;
+}
+
+.search {
+    margin: auto;
+    background-color: black;
+}
+
+.search .button {
+    text-transform: uppercase;
 }
