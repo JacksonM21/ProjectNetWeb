@@ -1,0 +1,27 @@
+* {
+    font-family: sans-serif;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;   
+}
+
+.main-header {
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+    margin-bottom: 60px;
+}
+
+nav {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+nav a {
+    padding: 20px;
+}
